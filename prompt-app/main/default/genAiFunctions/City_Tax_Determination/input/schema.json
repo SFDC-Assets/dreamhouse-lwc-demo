@@ -1,0 +1,24 @@
+{
+    "required": ["Input:Property"],
+    "unevaluatedProperties": false,
+    "properties": {
+        "Input:Property": {
+            "title": "Property",
+            "description": "Property record to run the city tax determination on",
+            "lightning:type": "lightning__recordInfoType",
+            "lightning:sObjectInfo": {
+                "apiName": "Property__c"
+            },
+            "lightning:isPII": false,
+            "copilotAction:isUserInput": false
+        },
+        "citationMode": {
+            "title": "Citation Mode",
+            "description": "Select Citation Mode",
+            "lightning:type": "lightning__textType",
+            "lightning:isPII": false,
+            "copilotAction:isUserInput": false
+        }
+    },
+    "lightning:type": "lightning__objectType"
+}

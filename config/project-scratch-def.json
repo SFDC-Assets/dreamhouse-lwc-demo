@@ -1,13 +1,27 @@
 {
     "orgName": "Dreamhouse",
-    "edition": "Developer",
-    "features": ["Walkthroughs", "EnableSetPasswordInApi"],
+    "edition": "Partner Developer",
+    "features": [
+        "Walkthroughs",
+        "EnableSetPasswordInApi",
+        "Copilot",
+        "EINSTEIN1AIPLATFORM",
+        "SecurityEventEnabled"
+    ],
     "settings": {
         "lightningExperienceSettings": {
             "enableS1DesktopEnabled": true
         },
         "mobileSettings": {
             "enableS1EncryptedStoragePref2": false
+        },
+        "einsteinGptSettings": {
+            "enableEinsteinGptPlatform": true
+        },
+        "eventSettings": {
+            "enableTransactionSecurityPolicies": true,
+            "eventLogRetentionDuration": 30,
+            "enableEventLogGeneration": true
         }
     }
 }
