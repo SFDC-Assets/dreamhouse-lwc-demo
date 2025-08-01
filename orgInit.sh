@@ -1,7 +1,7 @@
 # sf org create scratch -f config/project-scratch-def.json
 sf demoutil org create scratch -f config/project-scratch-def.json -d 30 -s -p dream -e house.workshop
 
-sfdx shane:tsp:username:update
+sf demoutil tsp update -d force-app/main/default
 
 npm install
 node run.js
@@ -12,7 +12,7 @@ sf org assign permset -n dreamhouse
 sf org assign permset -n Walkthroughs
 sf org assign permset -n EinsteinGPTPromptTemplateManager
 
-sf project deploy start -d prompt-app
+# sf project deploy start -d prompt-app
 
 sf data import tree -p data/sample-data-plan.json
 
