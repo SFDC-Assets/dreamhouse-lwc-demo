@@ -3,9 +3,9 @@ sf demoutil org create scratch -f config/project-scratch-def.json -d 30 -s -p dr
 
 sf demoutil tsp update -d force-app/main/default
 
-npm install
-node run.js
-sleep 120
+# npm install
+# node run.js
+# sleep 120
 
 sf project deploy start
 sf org assign permset -n dreamhouse

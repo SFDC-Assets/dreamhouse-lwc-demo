@@ -7,7 +7,7 @@
         <notifications>
             <inApp>true</inApp>
             <sendEmail>false</sendEmail>
-            <user>dream23@house.workshop</user>
+            <user>dream2821@house.workshop</user>
         </notifications>
         <twoFactorAuthentication>false</twoFactorAuthentication>
     </action>
@@ -17,5 +17,5 @@
     <eventName>ReportEvent</eventName>
     <masterLabel>No Confidential Fields Allowed in Reports</masterLabel>
     <type>CustomApexPolicy</type>
-    <executionUser>dream23@house.workshop</executionUser>
+    <executionUser>dream2821@house.workshop</executionUser>
 </TransactionSecurityPolicy>

@@ -113,20 +113,6 @@
                 <identifier>RecordOwnerIdField</identifier>
             </fieldInstance>
         </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>generativePromptTemplate</name>
-                    <value>Property_Ad</value>
-                </fieldInstanceProperties>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Property_Advertisement__c</fieldItem>
-                <identifier>RecordProperty_Advertisement__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
         <name>Facet-eb9c4d7e-6868-43e8-9851-85aacdd3a54d</name>
         <type>Facet</type>
     </flexiPageRegions>

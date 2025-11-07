@@ -1,6 +1,7 @@
 {
     "orgName": "Dreamhouse",
     "edition": "Partner Developer",
+    "adminEmail": "amyneni@salesforce.com",
     "features": [
         "Walkthroughs",
         "EnableSetPasswordInApi",
@@ -17,6 +18,9 @@
         },
         "einsteinGptSettings": {
             "enableEinsteinGptPlatform": true
+        },
+        "agentPlatformSettings": {
+            "enableAgentPlatform": true
         },
         "eventSettings": {
             "enableTransactionSecurityPolicies": true,
