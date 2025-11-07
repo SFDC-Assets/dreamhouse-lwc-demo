@@ -1,5 +1,5 @@
 # sf org create scratch -f config/project-scratch-def.json
-sf demoutil org create scratch -f config/project-scratch-def.json -d 30 -s -p dream -e house.workshop
+sf demoutil org create scratch -f config/project-scratch-def.json -d 2 -s -p dream -e house.workshop
 
 sf demoutil tsp update -d force-app/main/default
 
@@ -7,10 +7,20 @@ sf demoutil tsp update -d force-app/main/default
 # node run.js
 # sleep 120
 
+# sf package install -p 04tKf0000000WPPIA2 -r -w 30 # devops center
+# sf package install -p 04tKf0000000X1nIAE -r -w 30 # devops testing
+
 sf project deploy start
 sf org assign permset -n dreamhouse
 sf org assign permset -n Walkthroughs
 sf org assign permset -n EinsteinGPTPromptTemplateManager
+
+# sf org assign permset -n PlatformEncryption
+# sf org assign permset -n TransactionSecurity
+# sf org assign permset -n MobileSecurity
+# sf org assign permset -n Event_Monitoring_Access
+# sf org assign permset -n datamask
+# sf org assign permset -n PrivacyCenter
 
 # sf project deploy start -d prompt-app
 

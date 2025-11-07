@@ -1,13 +1,28 @@
 {
     "orgName": "Dreamhouse",
-    "edition": "Partner Developer",
-    "adminEmail": "amyneni@salesforce.com",
+    "edition": "Enterprise",
+    "adminEmail": "jonathan.zhou@example.com",
     "features": [
         "Walkthroughs",
         "EnableSetPasswordInApi",
-        "Copilot",
         "EINSTEIN1AIPLATFORM",
-        "SecurityEventEnabled"
+        "SecurityEventEnabled",
+        "FieldAuditTrail",
+        "CustomerDataPlatform",
+        "CustomerDataPlatformLite",
+        "DataMaskUser",
+        "MobileSecurity",
+        "EnableSetPasswordInApi",
+        "EventLogFile",
+        "SecurityEventEnabled",
+        "PlatformEncryption",
+        "CacheOnlyKeys",
+        "EncryptionStatisticsInterval:86400",
+        "DSARPortability",
+        "EncryptionSyncInterval:604800",
+        "AdditionalFieldHistory:40",
+        "AddCustomApps:29",
+        "DevOpsCenter"
     ],
     "settings": {
         "lightningExperienceSettings": {
@@ -26,6 +41,12 @@
             "enableTransactionSecurityPolicies": true,
             "eventLogRetentionDuration": 30,
             "enableEventLogGeneration": true
+        },
+        "customerDataPlatformSettings": {
+            "enableCustomerDataPlatform": true
+        },
+        "devHubSettings": {
+            "enableDevOpsCenterGA": true
         }
     }
 }
