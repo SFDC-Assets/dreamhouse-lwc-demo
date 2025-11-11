@@ -30,7 +30,7 @@ Example Response: - &quot;1. {!$Input:Property.Name} - Address: {!$Input:Propert
             <referenceName>Input:Property</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>sfdc_ai__DefaultOpenAIGPT35Turbo</primaryModel>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
         <status>Draft</status>
         <versionNumber>1</versionNumber>
     </templateVersions>

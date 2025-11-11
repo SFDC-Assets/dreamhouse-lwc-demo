@@ -31,7 +31,7 @@ Make the ad flashy, fun, and impossible to ignore! Focus on crafting an ad desig
             <referenceName>Input:Property__c</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>sfdc_ai__DefaultOpenAIGPT4Turbo</primaryModel>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
         <status>Published</status>
         <versionNumber>1</versionNumber>
     </templateVersions>
@@ -59,7 +59,7 @@ Make the ad flashy, fun, and impossible to ignore! Focus on crafting an ad desig
             <referenceName>Input:Property__c</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>sfdc_ai__DefaultOpenAIGPT4Turbo</primaryModel>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
         <status>Published</status>
         <versionNumber>2</versionNumber>
     </templateVersions>
@@ -97,7 +97,7 @@ Make the ad flashy, fun, and impossible to ignore! Focus on crafting an ad desig
             <referenceName>Input:Property__c</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>sfdc_ai__DefaultOpenAIGPT4Turbo</primaryModel>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
         <status>Published</status>
         <versionNumber>3</versionNumber>
     </templateVersions>
@@ -135,7 +135,7 @@ Make the ad flashy, fun, and impossible to ignore! Focus on crafting an ad desig
             <referenceName>Input:Property__c</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>sfdc_ai__DefaultOpenAIGPT4Turbo</primaryModel>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
         <status>Published</status>
         <versionNumber>4</versionNumber>
     </templateVersions>

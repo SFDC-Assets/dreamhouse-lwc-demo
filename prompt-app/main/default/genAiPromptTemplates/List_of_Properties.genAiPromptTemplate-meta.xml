@@ -39,7 +39,7 @@ Example Response:
             <referenceName>Input:Property</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>sfdc_ai__DefaultOpenAIGPT35Turbo</primaryModel>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
         <status>Published</status>
         <versionNumber>1</versionNumber>
     </templateVersions>
@@ -71,7 +71,7 @@ Response Format:
             <referenceName>Input:Property</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>sfdc_ai__DefaultOpenAIGPT35Turbo</primaryModel>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
         <status>Published</status>
         <versionNumber>2</versionNumber>
     </templateVersions>
@@ -105,7 +105,7 @@ For example, if the user input is: &apos;Show all properties in Boston with 3 be
             <referenceName>Input:Property</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>sfdc_ai__DefaultOpenAIGPT35Turbo</primaryModel>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
         <status>Published</status>
         <versionNumber>3</versionNumber>
     </templateVersions>

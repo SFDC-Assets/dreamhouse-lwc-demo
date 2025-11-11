@@ -21,7 +21,7 @@ Example response: &apos;There are {!$Input:Property.Beds__c} bedrooms in {!$Inpu
             <referenceName>Input:Property</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>sfdc_ai__DefaultOpenAIGPT35Turbo</primaryModel>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
         <status>Draft</status>
         <versionNumber>1</versionNumber>
     </templateVersions>
