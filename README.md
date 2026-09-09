@@ -36,7 +36,6 @@ Dreamhouse is a sample application that demonstrates the unique value propositio
 ## Installing Dreamhouse using a Scratch Org
 
 1. Set up your environment. Follow the steps in the [Quick Start: Lightning Web Components](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/) Trailhead project. The steps include:
-
     - Enable Dev Hub in your Trailhead Playground
     - Install Salesforce CLI
     - Install Visual Studio Code
@@ -105,7 +104,7 @@ Make sure to start from a brand-new environment to avoid conflicts with previous
 
 1. Log in to your org
 
-1. Click [this link](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tKY000000LgZyYAK) to install the Dreamhouse unlocked package in your org.
+1. Click [this link](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tKY000000MF7uYAG) to install the Dreamhouse unlocked package in your org.
 
 1. Select **Install for All Users**
 
@@ -114,7 +113,6 @@ Make sure to start from a brand-new environment to avoid conflicts with previous
 1. Click the **Settings** tab and click the **Import Data** button in the **Sample Data Import** component.
 
 1. If you're attempting the [Quick Start](https://trailhead.salesforce.com/en/content/learn/projects/quick-start-dreamhouse-sample-app) on Trailhead, this step is required, but otherwise, skip:
-
     - Go to **Setup > Users > Permission Sets**.
     - Click **dreamhouse**.
     - Click **Manage Assignments**.
